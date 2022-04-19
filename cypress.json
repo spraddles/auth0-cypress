@@ -1,0 +1,14 @@
+{
+    "baseUrl": "http://localhost:8082/",
+    "pluginsFile": "tests/e2e/plugins/index.js",
+    "env": {
+      "auth_audience": "https://somedomain.au.auth0.com/api/v2/",
+      "auth_url": "https://somedomain.au.auth0.com/oauth/token",
+      "auth_username": "cypress-e2e-testing@somedomain.com",
+      "auth_password": "i3Z@TieBnnB5A&J",
+      "auth_client_id": "aRND3WniNMvi7tIGFOzGIB9NIgr2dwfJ",
+      "auth_client_secret": "nN3XsKSB20RZrqdjEugQKUROuRSeRQE3+BNyehBQOmthqKqx9LpY9XLqTPJv1Cd2",
+      "auth_scope": "openid profile email offline_access",
+      "auth_grant_type": "password"
+    }
+  }
